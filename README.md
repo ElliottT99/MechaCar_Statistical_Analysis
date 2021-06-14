@@ -3,8 +3,6 @@
 ## Linear Regression to Predict MPG
 Conducting a Linear Regression test to the MechaCar Miles-Per-Gallon(mpg), we find the resulting statistics:
 
-![mpg_multipleLinearRegression](Resources/Deliverable 1/mpg_multipleLinearRegression.PNG)
-
 From this, we find that there are multiple pieces of information, based on pre-set guidlines:
 * Vehicle Length and Ground Clearance provide MechaCar's prototype very little variance to MPG, as their probability for variance is essentially 0
 * Our slope for the linear regression model cannot be considered 0, as our p-value is smaller than 0.05%, and therefore allows us to reject our null hypothesis
@@ -13,24 +11,14 @@ From this, we find that there are multiple pieces of information, based on pre-s
 ## Summary Statistics on Suspension Coils
 Conducting a Statistics Summary on the MechaCar prototypes suspension coils, we find the resulting statistics:
 
-![totalSummary](Resources/Deliverable 2/totalSummary.PNG)
-
 From this, we discover something interesting. Overall, on average, the specificed PSI varience maintains below the maximum 100 PSI. However, it is rather high. Investigating deeper, we find the following statistics for each individual lot:
-
-![lotSummary](Resources/Deliverable 2/lotSummary.PNG)
 
 Lot 3 is very much over allowed variance maximum, at 170 PSI, while Lot 1 and Lot 2 are under regulations.
 
 ## T-Tests on Suspension Coils
 Conducting a T-Test on the Suspension Coils, we find the following statistics:
 
-![tTestAllVsMean](Resources/Deliverable 3/tTestAllVsMean.PNG)
-
 Overall, the combined three lots are 1.22 PSI under the population mean. Investigating each lot individually, we find these statistics:
-
-![tTestLot1VsMean](Resources/Deliverable 3/tTestLot1VsMean.PNG)
-![tTestLot2VsMean](Resources/Deliverable 3/tTestLot2VsMean.PNG)
-![tTestLot3VsMean](Resources/Deliverable 3/tTestLot3VsMean.PNG)
 
 Lot 1 and 2 are much closer to the average 1,500 PSI, with very small p-values resulting in low varience. However, Lot 3 boasts a high p-value, over 0.05, as well as a much lower average PSI compared to the overall average as well as lot average, signifying that we cannot reject our null hypothesis. Something is occuring within the Lot 3 development/production, and someone should look into it to make sure those at Lot 3 are following procedure.
 
